@@ -1,0 +1,149 @@
+<!DOCTYPE  html>
+<html>
+
+	<head>
+		<title>Registration Page</title>
+		<link rel="stylesheet" href="registration.css">
+	</head>
+
+	<body>
+		<div class="page-container">
+		<div class="content-wrap">
+			<div class="header">
+				<img src="logo.png" alt="logo">
+				<h1>Totally Real & Not Fake University</h1>
+			</div>
+
+		<div class="navBar">
+
+			<a href="home.html">Home</a>
+			<a href="user.html">Account</a>
+			<a href="registration.html">Registration</a>
+
+		</div>
+
+		<div class="Terms">
+		<select><div class="center">
+			<option value="">Select Term</option>
+			<option value="Spring 2020">Spring 2020</option>
+			<option value="Summer A 2020">Summer A 2020</option>
+			<option value ="Summer B 2020">Summer B 2020</option>
+			<option value="Fall 2020">Fall 2020</option>
+			<option value="Spring 2021">Spring 2021</option>
+		</select>
+	   </div>
+	   
+	   <div class="text-center">
+	   <input class="searchBar" type="search" id="myInput"  placeholder="Search for courses.." name="search" size="100">
+	   
+	   <div class="Filters">
+	   <select id="faculty">
+	   		<option value="">Faculty</option>
+	   		<option value="Education">Education</option>
+	   		<option value="Arts">Arts and Humanities</option>
+	   		<option value="Science">Science</option>
+	   		<option value="Social Science">Social Sciences</option>
+	   		<option value="Management">Management</option>
+		</select>
+	
+
+	<select id="year">
+		<option value="">Year</option>
+		<option value="First">First Year</option>
+		<option value="Second">Second Year</option>
+		<option value="Third">Third Year</option>
+		<option value="Fourth">Fourth Year</option>
+	</select>
+		</div>
+		</div>
+	
+		<div class="courseTable">	
+			<table class="w3-table w3-striped w3-bordered">
+			
+			<tr class="header">
+				<th>Courses (Number of credits)</th>
+				<th>Add</th>
+			</tr>	
+			
+			<tr>
+				<td><strong>CSCI 160: 4 credits</strong><br> A first year course in computer science. Topics include structured programming, top-down program design, procedures, recursion, and an introduction to dynamic data structures.</td>
+				<td>
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><strong>CSCI 161: 4 credits</strong><br> A continuation of CSCI 160. Topics include an introduction to objects, classes, object-oriented programming techniques (encapsulation, inheritance, and polymorphism), dynamic data structures (dynamic arrays, linked lists and trees), and abstract data types (stacks, queues and dictionaries).</td>
+				<td>
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><strong>CSCI 162: 3 credits</strong><br> science. Topics include structured programming, top-down program design, procedures, recursion, and an introduction to dynamic data structures.</td>
+				<td>
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><strong>CSCI 260: 4 credits</strong><br>An examination of various methods of representing and manipulating data, including internal representation of data, stacks, queues, linked lists, trees and graphs. Analysis of algorithms will also be discussed extensively. </td>
+				<td>
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><strong>CSCI 261: 3 credits</strong><br>An introduction to computer organization, and machine and assembly languages. Topics include data representation, the instruction set and addressing modes of a chosen processor, procedures and parameter passing, and the use of operating system services.</td>	
+				<td>			
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><strong>CSCI 251: 3 credits</strong><br>An introduction to operating systems and computer networks. Topics include network architectures, communications protocols, client / server architecture and file systems. The lab component includes hardware and software installations, upgrades and backups.</td>
+				<td>
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><strong>CSCI 265: 4 credits</strong><br>An exploration of the methods and tools for developing high quality software. The course includes topics in program design, program style, algorithm selection, interface design, debugging and testing, system utilities, version control, regular expressions and an introduction to scripting languages. </td>
+				<td>
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><strong>CSCI 310: 3 credits</strong><br> An introduction to understanding human behaviour as it applies to interface design, implementation, and evaluation. Topics include: design issues and goals, the limits of the human cognitive system, user-centered design, prototyping, establishing requirements, evaluation techniques, and design implications of emerging technologies.</td>
+				<td>
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><strong>CSCI 311: 3 credits</strong><br> Exploration of languages, tools and techniques to write software for use within the World Wide Web (WWW). The course includes the WWW client/server model and related protocols, web server properties, web markup languages, client/server scripting tools, server side programming, and database access tools. </td>
+				<td>
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+			
+			<tr>
+				<td><strong>CSCI 320: 3 credits</strong><br>A survey of formal models and results that form the theoretical foundation of computer science. Typical topics include finite automata, Turing machines, simple undecidable problems, context-free languages, grammars and elementary computational complexity.  </td>
+				<td>
+				<input type="checkbox" id="checkbox" name="checkbox">
+				</td>
+			</tr>
+	
+		</div>	
+		
+		<input type="button" value="select courses" class="button"/>
+		</div>
+		
+		<footer class="footer"></footer>
+		
+		</div>
+		
+	</body>
+
+</html>
